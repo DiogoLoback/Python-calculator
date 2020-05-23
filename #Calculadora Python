@@ -1,0 +1,22 @@
+#Calculadora Python
+print("*************************Python Calculator****************************")
+print("Escolha uma operação:\n 1-Adição:\n 2-Subtração: \n 3-Multiplicação:\n 4-Divisão: ")
+operação = int(input('Qual operação você deseja realizar?: '))
+x = float(input('O primeiro número é: '))
+y = float(input('O segundo número é: '))
+if operação<1:
+    print('Opção inválida')
+if operação>4:
+    print('Opção inválida')
+if operação ==1:
+    resposta = x + y 
+    print('O resultado da soma é: ', resposta)
+if operação ==2:
+    resposta = x-y
+    print('O resultado da subtração é ', resposta)
+if operação ==3:
+    resposta = x*y
+    print('O resultado da multiplicação é ', resposta)
+if operação ==4:
+    resposta = x/y
+    print('O resultado da divisão é ', resposta)
